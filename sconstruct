@@ -1,6 +1,6 @@
 from tools.build_utils import *
 
-CPP_VERSION = "-std=c++14"
+CPP_VERSION = "-std=c++17"
 CPP_WARNINGS = "-Wall -Wpedantic"
 CPP_FLAGS = " ".join([CPP_VERSION, CPP_WARNINGS])
 
